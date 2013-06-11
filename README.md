@@ -10,9 +10,16 @@ This script requires Python 2.x and the pycrypto extension.
 
 #### Mac OSX
 
-OSX comes with Python preinstalled. To install the pycrypto extension, issue the following command:
+*Tested with Snow Leopard and Mountain Lion*
 
-    sudo pip install pycrypto
+OSX comes with Python preinstalled. To install the pycrypto extension, issue the following commands:
+
+    sudo easy_install pip
+    sudo pip install --upgrade pycrypto
+
+#### Linux
+
+With *Ubuntu 13.04 Raring Ringtail*, there are no steps that need to be performed as Python and pycrypto are installed by default.
 
 Usage
 -----
