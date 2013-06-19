@@ -6,7 +6,7 @@ Decrypt FTP credentials downloaded from ICANN's CZDAP application.
 Installation
 ------------
 
-This script requires Python 2.x and the pycrypto extension.
+This script requires Python 2.x plus the pycrypto and requests extension libraries.
 
 #### Mac OSX
 
@@ -15,7 +15,7 @@ This script requires Python 2.x and the pycrypto extension.
 OSX comes with Python preinstalled. To install the pycrypto extension, issue the following commands:
 
     sudo easy_install pip
-    sudo pip install --upgrade pycrypto
+    sudo pip install --upgrade pycrypto requests
 
 #### Linux
 
