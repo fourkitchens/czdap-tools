@@ -47,8 +47,8 @@ You should get the following sample output in basic CSV format:
 
 To decrypt your own FTP credentials:
 
-1. Visit CZDAP and download your token. You can find it on your user profile page.
-2. In the `credentials-decrypt` directory, make a copy of the `config.sample.json` file and name it `config.json`.
+1. Visit CZDAP and copy your token. You can find it on your user profile page.
+2. In the `/credentials-decrypt` directory, make a copy of the `config.sample.json` file and name it `config.json`.
 3. Edit config.json and overwrite the "token" parameter with the your unique token.
 2. Copy your private key into this directory and make sure it's named `czdap.private.key`.
 4. Run `python decrypt.py`.
@@ -56,8 +56,8 @@ To decrypt your own FTP credentials:
 Downloading zone data
 ---------------------
 
-1. Visit CZDAP and download your token. You can find it on your user profile page.
-2. In the `zonedata-download` directory, make a copy of the `config.sample.json` file and name it `config.json`.
+1. Visit CZDAP and copy your token. You can find it on your user profile page.
+2. In the `/zonedata-download` directory, make a copy of the `config.sample.json` file and name it `config.json`.
 3. Edit config.json and overwrite the "token" parameter with the your unique token.
 4. Run `python download.py`
 
