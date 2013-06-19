@@ -1,12 +1,13 @@
-CZDAP Decrypt
-=============
+CZDAP Tools
+===========
 
-Decrypt FTP credentials downloaded from ICANN's CZDAP application.
+* Decrypt FTP credentials downloaded from ICANN's CZDAP application.
+* Download zone data directly using the CZDAP API.
 
 Installation
 ------------
 
-This script requires Python 2.x plus the pycrypto and requests extension libraries.
+This script requires Python 2.x plus the `pycrypto` and `requests` extension libraries.
 
 #### Mac OSX
 
@@ -27,12 +28,12 @@ With *Ubuntu 13.04 Raring Ringtail*:
 
 *No steps available right now, but steps above should work with pip.*
 
-Usage
------
+Decrypting credentials
+----------------------
 
 To confirm that you've installed the dependencies correctly, simply run the test and it should process the example data successfully:
 
-    cd test
+    cd credentials-decrypt/test
     python test-decrypt.py
 
 You should get the following sample output in basic CSV format:
@@ -45,10 +46,18 @@ You should get the following sample output in basic CSV format:
 To decrypt your own FTP credentials:
 
 1. Visit CZDAP and download your token. You can find it on your user profile page.
-2. Make a copy of the `config.sample.json` file and name it `config.json`.
+2. In the `credentials-decrypt` directory, make a copy of the `config.sample.json` file and name it `config.json`.
 3. Edit config.json and overwrite the "token" parameter with the your unique token.
 2. Copy your private key into this directory and make sure it's named `czdap.private.key`.
 4. Run `python decrypt.py`.
+
+Downloading zone data
+---------------------
+
+1. Visit CZDAP and download your token. You can find it on your user profile page.
+2. In the `zonedata-download` directory, make a copy of the `config.sample.json` file and name it `config.json`.
+3. Edit config.json and overwrite the "token" parameter with the your unique token.
+4. Run `python download.py`
 
 Contributing
 ------------

@@ -1,2 +1,4 @@
-/config.json
-/czdap.private.key
+.DS_Store
+config.json
+/credentials-decrypt/czdap.private.key
+zonefiles
