@@ -26,6 +26,14 @@ if not config.has_key('base_url'):
   sys.stderr.write("'base_url' parameter not found in the config.json file\n")
   exit(1)
 
+# For development purposes, we sometimes run this against an environment with
+# basic auth and a self-signed certificate. If these params are present, use
+# them. If you're not a developer on working on CZDAP itself, ignore these.
+if config.has_key('auth_user') and config.has_key('auth_pass'):
+  s.auth = (config['auth_user'], config['auth_pass'])
+if config.has_key('ssl_skip_verify'):
+  s.verify = False
+
 # Load the private key.
 try:
   privateKeyFile = open("czdap.private.key", "r")
