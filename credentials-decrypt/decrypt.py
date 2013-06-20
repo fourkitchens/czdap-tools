@@ -28,7 +28,7 @@ if not config.has_key('base_url'):
 
 # For development purposes, we sometimes run this against an environment with
 # basic auth and a self-signed certificate. If these params are present, use
-# them. If you're not a developer on working on CZDAP itself, ignore these.
+# them. If you're not a developer working on CZDAP itself, ignore these.
 if config.has_key('auth_user') and config.has_key('auth_pass'):
   s.auth = (config['auth_user'], config['auth_pass'])
 if config.has_key('ssl_skip_verify'):
