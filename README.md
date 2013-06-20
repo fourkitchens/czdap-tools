@@ -13,7 +13,7 @@ This script requires Python 2.x plus the `pycrypto` and `requests` extension lib
 
 #### Mac OSX
 
-*Tested with Snow Leopard and Mountain Lion*
+*Tested on Snow Leopard and Mountain Lion*
 
 OSX comes with Python preinstalled. To install the required extensions, issue the following commands:
 
@@ -22,7 +22,7 @@ OSX comes with Python preinstalled. To install the required extensions, issue th
 
 #### Linux
 
-With *Ubuntu 13.04 Raring Ringtail*:
+*Tested on Ubuntu 13.04 Raring Ringtail*:
 
     sudo apt-get install python-pycryptopp python-requests
 
