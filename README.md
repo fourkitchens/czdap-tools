@@ -15,7 +15,7 @@ This script requires Python 2.x plus the `pycrypto` and `requests` extension lib
 
 *Tested with Snow Leopard and Mountain Lion*
 
-OSX comes with Python preinstalled. To install the pycrypto extension, issue the following commands:
+OSX comes with Python preinstalled. To install the required extensions, issue the following commands:
 
     sudo easy_install pip
     sudo pip install --upgrade pycrypto requests
