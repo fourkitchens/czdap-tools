@@ -22,7 +22,7 @@ OSX comes with Python preinstalled. To install the required extensions, issue th
 
 #### Linux
 
-*Tested on Ubuntu 13.04 Raring Ringtail*:
+*Tested on Ubuntu 13.04 Raring Ringtail*
 
     sudo apt-get install python-pycryptopp python-requests
 
