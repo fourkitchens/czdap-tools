@@ -37,7 +37,7 @@ Download and configure the Python environment:
 
 Install `pycrypto` and `requests`:
 
-* Pycrypto: [pre-built binary](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
+* Pycrypto: [pre-built binary](http://www.voidspace.org.uk/python/modules.shtml#pycrypto)
 * Requests: [pre-built binary](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 Decrypting credentials
