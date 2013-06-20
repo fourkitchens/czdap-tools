@@ -28,7 +28,17 @@ With *Ubuntu 13.04 Raring Ringtail*:
 
 #### Windows
 
-*No steps available right now, but steps above should work with pip.*
+*Tested on Windows 7*
+
+Download and configure the Python environment:
+
+* Download Python version 2.7.x from [the main download page](http://python.org/download/).
+* Run the installer and follow the installation instructions.
+
+Install `pycrypto` and `requests`:
+
+* Pycrypto: [pre-built binary](http://www.voidspace.org.uk/python/modules.shtml#pycrypto).
+* Requests: [pre-built binary](http://www.lfd.uci.edu/~gohlke/pythonlibs/)
 
 Decrypting credentials
 ----------------------
