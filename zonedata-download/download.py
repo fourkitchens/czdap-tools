@@ -53,7 +53,7 @@ for url in urls:
     directory = './zonefiles'
     if not os.path.exists(directory):
       os.makedirs(directory)
-    path = directory + '/' + filename
+    path = directory + '/' + filename + '.txt.gz'
     with open(path, 'wb') as f:
         for chunk in r.iter_content(1024):
             f.write(chunk)
