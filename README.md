@@ -24,7 +24,7 @@ OSX comes with Python preinstalled. To install the required extensions, issue th
 
 *Tested on Ubuntu 13.04 Raring Ringtail*
 
-    sudo apt-get install python-pycryptopp python-requests
+    sudo apt-get install python-crypto python-requests
 
 #### Windows
 
